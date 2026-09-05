@@ -1,7 +1,3 @@
-// admin.js
-// Lógica da página Admin: cadastro, listagem, exclusão (individual e total) e pesquisa de usuários.
-// Requisito do PDF: tudo em UMA única chave do Local Storage, valores em um objeto/array JSON.
-
 const CHAVE_USUARIOS = "usuarios";
 
 const formCadastro = document.getElementById("form-cadastro");

@@ -1,7 +1,3 @@
-// cadastro.js
-// Ao cadastrar uma conta, o usuário é salvo na MESMA chave "usuarios" do Local Storage
-// que a página Admin já lê — então ele aparece automaticamente na listagem de lá.
-
 const CHAVE_USUARIOS = "usuarios";
 
 const formCadastro = document.getElementById("form-cadastro-conta");
