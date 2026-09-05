@@ -1,0 +1,62 @@
+[
+    {
+      "id": 1,
+      "titulo": "Alice no País das Maravilhas",
+      "capa": "../imagem/alice-pais-maravilhas.jpg",
+      "nota": null
+    },
+    {
+      "id": 2,
+      "titulo": "O Assassinato No Expresso Oriente",
+      "capa": "../imagem/assassinato-expresso-oriente.jpg",
+      "nota": null
+    },
+    {
+      "id": 3,
+      "titulo": "Auto da Barca do Inferno",
+      "capa": "../imagem/auto-barca-inferno.jpg",
+      "nota": null
+    },
+    {
+      "id": 4,
+      "titulo": "Cartografia para caminhos incertos",
+      "capa": "../imagem/cartografia-caminhos-incertos.jpg",
+      "nota": null
+    },
+    {
+      "id": 5,
+      "titulo": "Dom Casmurro",
+      "capa": "../imagem/dom-casmurro",
+      "nota": null
+    },
+    {
+      "id": 6,
+      "titulo": "Hearstopper: Dois garotos, um encontro (Vol. 1)",
+      "capa": "../imagem/hearstopper.jpg",
+      "nota": null
+    },
+    {
+      "id": 7,
+      "titulo": "Jurassic Park",
+      "capa": "../imagem/jurassic-park.jpg",
+      "nota": null
+    },
+    {
+      "id": 8,
+      "titulo": "Os Sete Maridos de Evelyn Hugo",
+      "capa": "../imagem/maridos-evelyn-hugo.jpg",
+      "nota": null
+    },
+    {
+      "id": 9,
+      "titulo": "Memórias Póstumas de Brás Cubas",
+      "capa": "../imagem/memorias-postumas-bras-cubas.jpg",
+      "nota": null
+    },
+    {
+      "id": 10,
+      "titulo": "Sobre os ossos dos mortos",
+      "capa": "../imagem/sobre-ossos-mortos.jpg",
+      "nota": null
+    }
+  ]
