@@ -93,3 +93,28 @@ footer a{
     color: white;
     text-decoration: none;
 }
+
+body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links ul{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+
+    li{
+        margin: 0.5rem;
+    }
+
+    .logo{
+        padding: 5px;
+    }
+}

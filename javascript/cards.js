@@ -146,7 +146,7 @@ function removerDaListaDesejos(idLivro, card) {
   let listaDesejos = JSON.parse(localStorage.getItem(CHAVE_DESEJOS)) || [];
   listaDesejos = listaDesejos.filter((id) => id !== idLivro);
   localStorage.setItem(CHAVE_DESEJOS, JSON.stringify(listaDesejos));
-  card.remove(); // some da tela na hora, sem precisar recarregar a página
+  card.remove();
 }
 
 if (localStorage.getItem(CHAVE_ACERVO) !== null) {
