@@ -3,24 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
     <title>Letterbook web</title>
 </head>
 <body>
     <header>
-        <div>
+        <div class="logo">
             <img src="../icone/book.svg" alt="Icone da logo" width="50">
-            <h1>Letterbook</h1>
+            <h1 class="logo-titulo">Letterbook</h1>
         </div>
-        <nav>
-            <ul>
+        <nav class="links">
+            <ul class="links">
                 <li>
                     <a href="home.html">Home</a>
                 </li>
                 <li>
                     <a href="wishlist.html">Lista de desejos</a>
                 </li>
-                <li>
-                    <img src="../icone/admin-generic-svgrepo-com.svg" alt="Icone de Admin" width="50ss">
+                <li class="link-admin">
+                    <img src="../icone/admin-generic-svgrepo-com.svg" alt="Icone de Admin" width="15">
                     <a href="admin.html">Admin</a>
                 </li>
             </ul>
@@ -28,15 +29,15 @@
         
     </header>
     <main>
-        <h2>Acervo do Letterbook</h2>
+        <h2 class="acervo">Acervo do Letterbook</h2>
 
-        <section>
-            <div>
-                <img src="../imagem/alice-pais-maravilhas.jpg" alt="capa do livro" width="150">
+        <section class="cards">
+            <div class="livro-card">
+                <img src="../imagem/alice-pais-maravilhas.jpg" alt="capa do livro" width="200">
                 <h3>Título</h3>
                 <input type="range" min="0" max="5" step="0.5" value="0">
                 <button type="button">
-                    <img src="../icone/cart-shopping-svgrepo-com.svg" alt="Adicionar a lista de desejos" width="50">
+                    <img src="../icone/cart-shopping-svgrepo-com.svg" alt="Adicionar a lista de desejos" width="25">
                 </button>
             </div>
         </section>

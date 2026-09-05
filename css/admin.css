@@ -1,0 +1,90 @@
+@import url('variaveis.css');
+
+.cadastro{
+    background-color: var(--marrom);
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    padding: 2em 1em;
+    width: 25%;
+    color: white;
+    border-radius: 0.5em;
+    box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109),
+      0 1px 1px rgba(128, 128, 128, 0.155),
+      0 2.1px 2.1px rgba(128, 128, 128, 0.195),
+      0 4.4px 4.4px rgba(128, 128, 128, 0.241),
+      0 12px 12px rgba(128, 128, 128, 0.35);
+  
+    button {
+        border-radius: 0.5rem;
+      width: 100%;
+      margin: 18px 0 9px 0;
+    }
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+
+.usuarios{
+    width: 30vw;
+}
+
+.listas{
+    display: flex;
+    background-color: var(--cinza);
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2em 1em;
+    width: 100%;
+    color: white;
+    border-radius: 0.5em;
+    box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109),
+      0 1px 1px rgba(128, 128, 128, 0.155),
+      0 2.1px 2.1px rgba(128, 128, 128, 0.195),
+      0 4.4px 4.4px rgba(128, 128, 128, 0.241),
+      0 12px 12px rgba(128, 128, 128, 0.35);
+  
+}
+
+.pesquisa-input{
+    box-shadow:  4px 4px 6px 0 rgba(255,255,255,.3),
+              -4px -4px 6px 0 rgba(116, 125, 136, .2), 
+    inset -4px -4px 6px 0 rgba(255,255,255,.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, .2);
+    border-radius: 30px;
+    padding: 10px 20px;
+    background: transparent;
+    border: none;
+    outline:none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: 0.8s;
+}
+
+.usuario{
+    margin: 1em;
+    padding: 2rem 1rem;
+    background-color: var(--marrom);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109),
+      0 1px 1px rgba(128, 128, 128, 0.155),
+      0 2.1px 2.1px rgba(128, 128, 128, 0.195),
+      0 4.4px 4.4px rgba(128, 128, 128, 0.241),
+      0 12px 12px rgba(128, 128, 128, 0.35);
+}

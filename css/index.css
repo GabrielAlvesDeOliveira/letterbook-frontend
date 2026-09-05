@@ -1,0 +1,90 @@
+@import url('variaveis.css');
+
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--branco);
+}
+header {
+    display: flex;
+    padding: 1vh;
+    background-color: red;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo-titulo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.links ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li a{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+li{
+    margin: 1rem;
+}
+
+main{
+    /* background-color: black; */
+
+}
+
+main h2{
+    display: flex;
+    justify-content: center;
+}
+
+.acervo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 1.5rem; 
+    padding: 1.5rem; 
+}
+  
+
+.livro-card {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 1.5em; 
+    max-width: 200px; 
+    justify-self: start; 
+    width: 100%;
+    background-color: aqua;
+}
+
+.livro-card button{
+    width: 100%;
+}
+
+footer{
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}

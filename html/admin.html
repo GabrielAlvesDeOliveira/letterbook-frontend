@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css" >
+    <link rel="stylesheet" href="../css/admin.css" >
     <title>Admin</title>
 </head>
 <body>
     <main>
-        <section>
-            <p>Cadastro de usuários:</p>
+        <section class="cadastro">
+            <h1>Cadastro de usuários:</h1>
 
             <form>
                 <label for="fname">Nome:</label><br>
@@ -20,18 +22,28 @@
             </form> 
         </section>
 
-        <section>
-            <form>
-                <input type="text" id="#" name="#">
-                <button>Pesquisar</button>
-                <button>Excluir Tudo</button>
-            </form> 
+        <section class="usuarios">
+            <div class="listas">
+                <form>
+                    <input type="text" id="#" name="#" class="pesquisa-input" placeholder="pesquisar">
+                    <button>
+                        <img src="../icone/magnifying-glass-backup-svgrepo-com.svg" width="25">
+                    </button>
+                </form> 
+                <button>
+                    <img src="../icone/trash-xmark-svgrepo-com.svg" width="25">
+                </button>
+            </div>
 
-            <div>
-                <p>Nome</p>
-                <p>Email</p>
-                <p>Data</p>
-                <button><img src="../icone/trash-delete-svgrepo-com.svg" alt="Icone de lixeira" width="50"></button>
+            <div class="usuario">
+                <div>
+                    <p>Nome</p>
+                    <p>Email</p>
+                    <p>Data</p>
+                </div>
+                <div>
+                    <button><img src="../icone/trash-delete-svgrepo-com.svg" alt="Icone de lixeira" width="50"></button>
+                </div>
             </div>
 
         </section>
