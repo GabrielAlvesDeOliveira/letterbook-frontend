@@ -13,43 +13,43 @@
         <section class="cadastro">
             <h1>Cadastro de usuários:</h1>
 
-            <form>
+            <form id="form-cadastro">
                 <label for="fname">Nome:</label><br>
                 <input type="text" id="fname" name="fname"><br>
                 <label for="femail">Email:</label><br>
-                <input type="text" id="lname" name="lname">
+                <input type="email" id="femail" name="femail"><br>
 
-                <button>Cadastrar</button>
-            </form> 
+                <button type="submit">Cadastrar</button>
+                <button type="button" id="btn-limpar">Limpar</button>
+            </form>
         </section>
 
         <section class="usuarios">
             <div class="listas">
-                <form>
-                    <input type="text" id="#" name="#" class="pesquisa-input" placeholder="pesquisar">
-                    <button>
-                        <img src="../icone/magnifying-glass-backup-svgrepo-com.svg" width="25">
+                <form id="form-pesquisa">
+                    <input type="text" id="pesquisa-input" name="pesquisa" class="pesquisa-input" placeholder="pesquisar">
+                    <button type="submit">
+                        <img src="../icone/magnifying-glass-backup-svgrepo-com.svg" width="25" alt="Pesquisar">
                     </button>
-                </form> 
-                <button>
-                    <img src="../icone/trash-xmark-svgrepo-com.svg" width="25">
+                </form>
+                <button type="button" id="btn-excluir-todos">
+                    <img src="../icone/trash-xmark-svgrepo-com.svg" width="25" alt="Excluir todos os usuários">
                 </button>
             </div>
 
-            <div class="usuario">
-                <div>
-                    <p>Nome</p>
-                    <p>Email</p>
-                    <p>Data</p>
-                </div>
-                <div>
-                    <button><img src="../icone/trash-delete-svgrepo-com.svg" alt="Icone de lixeira" width="50"></button>
-                </div>
+            <div class="usuario cabecalho">
+                <p>Nome</p>
+                <p>Email</p>
+                <p>Data</p>
             </div>
 
+            <ul id="lista-usuarios" class="lista-usuarios">
+                <!-- itens gerados dinamicamente pelo admin.js -->
+            </ul>
         </section>
     </main>
     <div id="footer-placeholder"></div>
     <script src="../javascript/renderizar.js"></script>
+    <script src="../javascript/admin.js"></script>
 </body>
 </html>

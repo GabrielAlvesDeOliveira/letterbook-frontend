@@ -88,3 +88,9 @@ h1{
       0 4.4px 4.4px rgba(128, 128, 128, 0.241),
       0 12px 12px rgba(128, 128, 128, 0.35);
 }
+
+.lista-usuarios {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }

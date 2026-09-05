@@ -1,0 +1,55 @@
+@import url('variaveis.css');
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2em auto;
+    padding: 2em 1.5em;
+    width: 25%;
+    min-width: 280px;
+    color: white;
+    background-color: var(--marrom);
+    border-radius: 0.5em;
+    box-shadow: 0 0.4px 0.4px rgba(128, 128, 128, 0.109),
+      0 1px 1px rgba(128, 128, 128, 0.155),
+      0 2.1px 2.1px rgba(128, 128, 128, 0.195),
+      0 4.4px 4.4px rgba(128, 128, 128, 0.241),
+      0 12px 12px rgba(128, 128, 128, 0.35);
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formulario label {
+    margin-top: 0.8em;
+    margin-bottom: 0.2em;
+}
+
+.formulario input {
+    padding: 0.5em;
+    border-radius: 0.3em;
+    border: none;
+    outline: none;
+}
+
+.formulario button {
+    margin-top: 1.5em;
+    padding: 0.6em;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.link-alternativo {
+    margin-top: 1em;
+    font-size: 0.9em;
+}
+
+.link-alternativo a {
+    color: var(--preto);
+}
